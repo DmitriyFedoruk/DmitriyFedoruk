@@ -1,23 +1,31 @@
 {
-    "cars"
-    [
+  "posts": [
     {
-    "name": "awesrdfgy",
-    "bodyType": "42000",
-    "preview": "http://www.macoratti.net/19/11/flut_card15.jpg",
-    "photos":  "https://static3.av.by/public_images/big/017/65/30/public_17653024_b_73b402b.jpeg",
-},
-  {
-    "name": "awesrdfgy",
-    "bodyType": "42000",
-    "preview": "http://www.macoratti.net/19/11/flut_card15.jpg",
-    "photos":  "https://static3.av.by/public_images/big/017/65/30/public_17653024_b_73b402b.jpeg",
-},  {
-    "name": "awesrdfgy",
-    "bodyType": "42000",
-    "preview": "http://www.macoratti.net/19/11/flut_card15.jpg",
-    "photos":  "https://static3.av.by/public_images/big/017/65/30/public_17653024_b_73b402b.jpeg",
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
-    ]
-}
- 
